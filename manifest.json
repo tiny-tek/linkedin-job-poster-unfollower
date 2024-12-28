@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Unfollow Fixer",
+  "version": "1.0",
+  "default_icon": "hello_extensions.png",
+  "description": "Automatically unchecks the 'follow this company' box on LinkedIn job applications.",
+  "permissions": ["scripting", "activeTab", "webNavigation"],
+  "host_permissions": ["https://www.linkedin.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
